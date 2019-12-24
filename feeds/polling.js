@@ -4,9 +4,7 @@ const _ = require('lodash');
 // Response to expired token. Email me a reminder!
 const THIRTY_MIN = 1.8e6;
 const STREAM_ID = 'user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2'
-
-
-// TODO: filter empireofthekop "https://pbs.twimg.com/profile_images/1138760979880304641/B72IMxOm_400x400.jpg"
+const EMPIRE_OF_THE_KOP_IMAGE = "https://pbs.twimg.com/profile_images/1138760979880304641/B72IMxOm_400x400.jpg"
 
 
 // {
@@ -33,8 +31,12 @@ module.exports = {
                     var articles = {}
 
                     for (let i = 0; i <= 2; i++) {
-                        const article = _.pick(response, [`items[${i}].originId`,`items[${i}].title`,`items[${i}].visual.url`])
-                        articles = _.merge(articles, article)
+                        var article = _.pick(response, [`items[${i}].originId`, `items[${i}].title`, `items[${i}].visual.url`]);
+                        const articleSource = _.get(article, `items[${i}].originId`);
+                        if (articleSource.includes('empireofthekop')) {
+                            article = _.set(article, `items[${i}].visual.url`, EMPIRE_OF_THE_KOP_IMAGE);
+                        }
+                        articles = _.merge(articles, article);
                     }
 
                     fs.writeFile("./feeds/featured-feed.txt", JSON.stringify(articles), (err) => {
@@ -63,10 +65,14 @@ module.exports = {
                     var articles = {}
 
                     for (let i = 0; i <= 39; i++) {
-                        const article = _.pick(response, [`items[${i}].originId`,`items[${i}].title`,`items[${i}].visual.url`])
+                        var article = _.pick(response, [`items[${i}].originId`, `items[${i}].title`, `items[${i}].visual.url`])
+                        const articleSource = _.get(article, `items[${i}].originId`)
+                        if (articleSource.includes('empireofthekop')) {
+                            article = _.set(article, `items[${i}].visual.url`, EMPIRE_OF_THE_KOP_IMAGE)
+                        }
                         articles = _.merge(articles, article)
                     }
-                    
+
                     fs.writeFile("./feeds/general-feed.txt", JSON.stringify(articles), (err) => {
                         if (err) {
                             console.log("error writing to general file")
