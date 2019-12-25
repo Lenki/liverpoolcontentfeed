@@ -1,0 +1,372 @@
+{
+  "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+  "items": [
+    {
+      "id": "5cyZeJUbAmHRCO76keYlDKRZTSkE2P4eVL+3CAoYvYA=_16f37599051:4cdf97:512e2118",
+      "keywords": [
+        "News Story"
+      ],
+      "originId": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+      "fingerprint": "11d7cfe7",
+      "title": "Injured Ox to miss Liverpool's final games of 2019",
+      "summary": {
+        "content": "Jurgen Klopp has confirmed Alex Oxlade-Chamberlain will miss Liverpool's final two games of 2019 due to an ankle ligament injury.",
+        "direction": "ltr"
+      },
+      "enclosure": [
+        {
+          "href": "https://e2.365dm.com/19/12/128x67/skysports-oxlade-chamberlain_4873042.jpg?20191221193559",
+          "type": "image/jpg",
+          "length": 123456
+        }
+      ],
+      "alternate": [
+        {
+          "href": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+          "type": "text/html"
+        }
+      ],
+      "crawled": 1577181614161,
+      "published": 1577180880000,
+      "origin": {
+        "streamId": "feed/http://www.skysports.com/rss/0,20514,11669,00.xml",
+        "title": "SkySports | Liverpool",
+        "htmlUrl": "http://www.skysports.com"
+      },
+      "visual": {
+        "processor": "feedly-nikon-v3.1",
+        "url": "https://e2.365dm.com/19/12/768x432/skysports-oxlade-chamberlain_4873042.jpg?20191221193559",
+        "width": 768,
+        "height": 432,
+        "contentType": "image/jpeg"
+      },
+      "canonicalUrl": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+      "ampUrl": "https://www.skysports.com/amp/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+      "cdnAmpUrl": "https://www-skysports-com.cdn.ampproject.org/c/s/www.skysports.com/amp/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+      "unread": true,
+      "categories": [
+        {
+          "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+          "label": "Liverpool RSS"
+        }
+      ],
+      "commonTopics": [
+        {
+          "score": 103.15225522103107,
+          "id": "nlp/f/topic/3020",
+          "salienceLevel": "about",
+          "label": "soccer"
+        },
+        {
+          "score": 55.28352288807935,
+          "id": "nlp/f/topic/3024",
+          "salienceLevel": "about",
+          "label": "sport"
+        },
+        {
+          "score": 32.53719499712127,
+          "id": "nlp/f/topic/3029",
+          "salienceLevel": "about",
+          "label": "games"
+        }
+      ],
+      "entities": [
+        {
+          "mentions": [
+            {
+              "text": "Liverpool"
+            },
+            {
+              "text": "Liverpool's"
+            }
+          ],
+          "id": "nlp/f/entity/wd:1130849",
+          "salienceLevel": "about",
+          "label": "Liverpool F.C."
+        },
+        {
+          "mentions": [
+            {
+              "text": "Flamengo"
+            }
+          ],
+          "id": "nlp/f/entity/wd:17479",
+          "salienceLevel": "mention",
+          "label": "Clube de Regatas do Flamengo"
+        },
+        {
+          "mentions": [
+            {
+              "text": "Leicester"
+            }
+          ],
+          "id": "nlp/f/entity/wd:19481",
+          "salienceLevel": "mention",
+          "label": "Leicester City F.C."
+        },
+        {
+          "mentions": [
+            {
+              "text": "Wolves"
+            }
+          ],
+          "id": "nlp/f/entity/wd:19500",
+          "salienceLevel": "mention",
+          "label": "Wolverhampton Wanderers F.C."
+        },
+        {
+          "mentions": [
+            {
+              "text": "England international"
+            }
+          ],
+          "id": "nlp/f/entity/wd:47762",
+          "salienceLevel": "mention",
+          "label": "England national football team"
+        }
+      ],
+      "engagement": 2295,
+      "engagementRate": 0.96
+    },
+    {
+      "id": "j9TxCnzwa4VuKnLeENrS8G04O+mHmeSUNwUlWS0MQ/g=_16f374237f1:47195d:bb2cd839",
+      "originId": "https://www.liverpoolfc.com/news/first-team/379779-alex-oxlade-chamberlain-injury-fitness-latest",
+      "fingerprint": "e024db1d",
+      "summary": {
+        "content": "Alex Oxlade-Chamberlain is set to miss Liverpool’s final two matches of 2019 after sustaining an ankle ligament injury, Jürgen Klopp has confirmed.",
+        "direction": "ltr"
+      },
+      "alternate": [
+        {
+          "href": "https://www.liverpoolfc.com/news/first-team/379779-alex-oxlade-chamberlain-injury-fitness-latest",
+          "type": "text/html"
+        }
+      ],
+      "crawled": 1577180084209,
+      "title": "Alex Oxlade-Chamberlain injury update",
+      "published": 1577179800000,
+      "origin": {
+        "streamId": "feed/http://www.liverpoolfc.tv/rss/news/latest",
+        "htmlUrl": "https://www.liverpoolfc.com/news.rss",
+        "title": "LiverpoolFC News"
+      },
+      "visual": {
+        "processor": "feedly-nikon-v3.1",
+        "url": "https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/100/thumb_99775_default_news_size_5.jpeg",
+        "width": 850,
+        "height": 510,
+        "contentType": "image/jpeg"
+      },
+      "canonicalUrl": "https://www.liverpoolfc.com/news/first-team/379779-alex-oxlade-chamberlain-injury-fitness-latest",
+      "ampUrl": "https://www.liverpoolfc.com/amp/news/first-team/379779-alex-oxlade-chamberlain-injury-fitness-latest",
+      "cdnAmpUrl": "https://www-liverpoolfc-com.cdn.ampproject.org/c/s/www.liverpoolfc.com/amp/news/first-team/379779-alex-oxlade-chamberlain-injury-fitness-latest",
+      "unread": true,
+      "categories": [
+        {
+          "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+          "label": "Liverpool RSS"
+        }
+      ],
+      "commonTopics": [
+        {
+          "score": 124.8427610032521,
+          "id": "nlp/f/topic/3020",
+          "salienceLevel": "about",
+          "label": "soccer"
+        }
+      ],
+      "entities": [
+        {
+          "mentions": [
+            {
+              "text": "Liverpool"
+            },
+            {
+              "text": "Liverpool's"
+            }
+          ],
+          "id": "nlp/f/entity/wd:1130849",
+          "salienceLevel": "mention",
+          "label": "Liverpool F.C."
+        },
+        {
+          "mentions": [
+            {
+              "text": "Leicester City"
+            },
+            {
+              "text": "Leicester"
+            }
+          ],
+          "id": "nlp/f/entity/wd:19481",
+          "salienceLevel": "mention",
+          "label": "Leicester City F.C."
+        },
+        {
+          "mentions": [
+            {
+              "text": "Reds"
+            }
+          ],
+          "id": "nlp/f/entity/wd:1368281",
+          "salienceLevel": "mention",
+          "label": "Queensland Reds"
+        },
+        {
+          "mentions": [
+            {
+              "text": "Flamengo"
+            }
+          ],
+          "id": "nlp/f/entity/wd:17479",
+          "salienceLevel": "mention",
+          "label": "Clube de Regatas do Flamengo"
+        },
+        {
+          "mentions": [
+            {
+              "text": "Wolverhampton Wanderers"
+            }
+          ],
+          "id": "nlp/f/entity/wd:19500",
+          "salienceLevel": "mention",
+          "label": "Wolverhampton Wanderers F.C."
+        }
+      ],
+      "engagement": 9274,
+      "engagementRate": 2.26
+    },
+    {
+      "id": "gEnsITk76Xy6RrYujKQfY6lCToorNV6uDuhjO3YE2Fc=_16f3716a826:47a2b4:512e2118",
+      "keywords": [
+        "Liverpool FC"
+      ],
+      "originId": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-melwood-champions-wall-trophies-17469125",
+      "fingerprint": "7bc5c94",
+      "thumbnail": [
+        {
+          "url": "https://i2-prod.liverpoolecho.co.uk/incoming/article17469148.ece/ALTERNATES/s98/0_JS200865722.jpg",
+          "width": 98,
+          "height": 98
+        }
+      ],
+      "title": "Liverpool make Melwood change after winning FIFA Club World Cup",
+      "author": "liverpool.news@trinitymirror.com (Sean Bradbury)",
+      "summary": {
+        "content": "Liverpool won the FIFA Club World Cup for the first time in their history and it has already been added to the 'Champions Wall'",
+        "direction": "ltr"
+      },
+      "enclosure": [
+        {
+          "href": "https://i2-prod.liverpoolecho.co.uk/incoming/article17469148.ece/ALTERNATES/s615/0_JS200865722.jpg",
+          "type": "image/jpeg",
+          "length": 754605
+        },
+        {
+          "href": "https://i2-prod.liverpoolecho.co.uk/incoming/article17469148.ece/ALTERNATES/s615/0_JS200865722.jpg",
+          "width": 615,
+          "height": 409,
+          "type": "image/jpeg"
+        }
+      ],
+      "alternate": [
+        {
+          "href": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-melwood-champions-wall-trophies-17469125",
+          "type": "text/html"
+        }
+      ],
+      "crawled": 1577177229350,
+      "published": 1577176964000,
+      "origin": {
+        "streamId": "feed/http://www.liverpoolecho.co.uk/all-about/liverpool%20fc?service=rss",
+        "title": "Liverpool Echo - Liverpool FC",
+        "htmlUrl": "https://www.liverpoolecho.co.uk"
+      },
+      "visual": {
+        "processor": "feedly-nikon-v3.1",
+        "url": "https://i2-prod.liverpoolecho.co.uk/incoming/article17469148.ece/ALTERNATES/s615/0_JS200865722.jpg",
+        "width": 615,
+        "height": 409,
+        "contentType": "image/jpeg"
+      },
+      "canonicalUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-melwood-champions-wall-trophies-17469125",
+      "ampUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-melwood-champions-wall-trophies-17469125.amp",
+      "cdnAmpUrl": "https://www-liverpoolecho-co-uk.cdn.ampproject.org/c/s/www.liverpoolecho.co.uk/sport/football/football-news/liverpool-melwood-champions-wall-trophies-17469125.amp",
+      "unread": true,
+      "categories": [
+        {
+          "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+          "label": "Liverpool RSS"
+        }
+      ],
+      "commonTopics": [
+        {
+          "score": 158.3872454189473,
+          "id": "nlp/f/topic/3024",
+          "salienceLevel": "about",
+          "label": "sport"
+        },
+        {
+          "score": 131.92795254376747,
+          "id": "nlp/f/topic/3020",
+          "salienceLevel": "about",
+          "label": "soccer"
+        }
+      ],
+      "entities": [
+        {
+          "mentions": [
+            {
+              "text": "Liverpool"
+            }
+          ],
+          "id": "nlp/f/entity/wd:1130849",
+          "salienceLevel": "about",
+          "label": "Liverpool F.C."
+        },
+        {
+          "mentions": [
+            {
+              "text": "Reds"
+            }
+          ],
+          "id": "nlp/f/entity/wd:1368281",
+          "salienceLevel": "mention",
+          "label": "Queensland Reds"
+        },
+        {
+          "mentions": [
+            {
+              "text": "Flamengo"
+            }
+          ],
+          "id": "nlp/f/entity/wd:17479",
+          "salienceLevel": "mention",
+          "label": "Clube de Regatas do Flamengo"
+        },
+        {
+          "mentions": [
+            {
+              "text": "Qatar"
+            }
+          ],
+          "id": "nlp/f/entity/wd:232731",
+          "salienceLevel": "mention",
+          "label": "Qatar national football team"
+        },
+        {
+          "mentions": [
+            {
+              "text": "FIFA"
+            }
+          ],
+          "id": "nlp/f/entity/wd:253414",
+          "salienceLevel": "mention",
+          "label": "FIFA"
+        }
+      ],
+      "engagement": 1564,
+      "engagementRate": 2.21
+    }
+  ]
+}
