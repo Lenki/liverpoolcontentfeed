@@ -1,10 +1,10 @@
 const fs = require('fs');
 const request = require('request');
 const sanitiser = require('./util/response-sanitation');
+const email = require('./util/email-reminder');
 
 const THIRTY_MIN = 1.8e6;
 const STREAM_ID = 'user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2'
-const EMPIRE_OF_THE_KOP_IMAGE = "https://pbs.twimg.com/profile_images/1138760979880304641/B72IMxOm_400x400.jpg"
 
 // Response to expired token. Email me a reminder!
 
@@ -29,6 +29,11 @@ module.exports = {
                 },
                 (err, res, body) => {
                     const response = JSON.parse(body);
+
+                    if (response.errorCode == 401) {
+                        email.sendMail(body)
+                        return;
+                    }
                     const articles = sanitiser.stripFeed(response);
 
                     fs.writeFile("./feeds/featured-feed.txt", JSON.stringify(articles), (err) => {
@@ -54,6 +59,11 @@ module.exports = {
                 },
                 (err, res, body) => {
                     const response = JSON.parse(body);
+
+                    if (response.errorCode == 401) {
+                        email.sendMail(body)
+                        return;
+                    }
                     const articles = sanitiser.stripFeed(response);
 
                     fs.writeFile("./feeds/general-feed.txt", JSON.stringify(articles), (err) => {
