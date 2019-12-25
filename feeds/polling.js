@@ -3,7 +3,7 @@ const sanitiser = require('./util/response-sanitation');
 const email = require('./util/email-reminder');
 const {writeFile} = require('./util/writeToFile');
 
-const THIRTY_MIN = 1.8e6;
+const TWENTY_NINE_MINS = 1.74e6;
 
 module.exports = {
     liverpoolFeeds: function () {
@@ -54,6 +54,6 @@ module.exports = {
                     writeFile("./feeds/general-feed.txt", articles)
                 }
             )
-        }, THIRTY_MIN)
+        }, TWENTY_NINE_MINS)
     }
 }
