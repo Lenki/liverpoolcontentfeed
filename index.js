@@ -27,17 +27,16 @@ app.get('/liverpoolfc/articles', (req, res) => {
     fs.readFile("./feeds/general-feed.txt", (err, data) => {
 
         if (err) console.log(`error reading general file : ${err.body}`);
-        const general = JSON.parse(data)
+        const generalFeed = JSON.parse(data)
 
         fs.readFile("./feeds/featured-feed.txt", (err, data) => {
+
             if (err) console.log(`error reading featured file : ${err.body}`);
 
-            const featured = JSON.parse(data)
-
-            // const combinedFeed = _.merge({},featured, general);
+            const featuredFeed = JSON.parse(data)
+            const combinedArticles = featuredFeed.items.concat(generalFeed.items);
             const combinedFeed = {
-                featured : {...featured},
-                general : {...general},
+                articles : [...combinedArticles]
             }
 
             res.send(combinedFeed);
