@@ -4,7 +4,8 @@
   "description": "a proxy for mobile clients to source data from the feedly api.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "author": "khaleel freeman",
   "license": "ISC",
