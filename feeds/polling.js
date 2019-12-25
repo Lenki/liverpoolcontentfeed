@@ -1,7 +1,7 @@
-const fs = require('fs');
 const request = require('request');
 const sanitiser = require('./util/response-sanitation');
 const email = require('./util/email-reminder');
+const {writeFile} = require('./util/writeToFile');
 
 const THIRTY_MIN = 1.8e6;
 const STREAM_ID = 'user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2'
@@ -28,13 +28,7 @@ module.exports = {
                     }
                     const articles = sanitiser.stripFeed(response);
 
-                    fs.writeFile("./feeds/featured-feed.txt", JSON.stringify(articles), (err) => {
-                        if (err) {
-                            console.log("error writing to featured file")
-                        } else {
-                            console.log("successfully wrote featured file")
-                        }
-                    });
+                    writeFile("./feeds/featured-feed.txt", articles)
                 }
             )
 
@@ -58,13 +52,7 @@ module.exports = {
                     }
                     const articles = sanitiser.stripFeed(response);
 
-                    fs.writeFile("./feeds/general-feed.txt", JSON.stringify(articles), (err) => {
-                        if (err) {
-                            console.log("error writing to general file")
-                        } else {
-                            console.log("successfully wrote to general file")
-                        }
-                    });
+                    writeFile("./feeds/general-feed.txt", articles)
                 }
             )
         }, THIRTY_MIN)
