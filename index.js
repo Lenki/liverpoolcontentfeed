@@ -1,9 +1,11 @@
+
 require('dotenv').config();
 const fs = require('fs');
 const express = require('express');
 const app = express();
 const poll = require('./feeds/polling');
 const _ = require('lodash');
+const { combineFeeds }  = require("./feeds/util/combineFeeds");
 
 const port = process.env.PORT;
 
@@ -34,10 +36,7 @@ app.get('/liverpoolfc/articles', (req, res) => {
             if (err) console.log(`error reading featured file : ${err.body}`);
 
             const featuredFeed = JSON.parse(data)
-            const combinedArticles = featuredFeed.items.concat(generalFeed.items);
-            const combinedFeed = {
-                articles : [...combinedArticles]
-            }
+            const combinedFeed = combineFeeds(featuredFeed, generalFeed);
 
             res.send(combinedFeed);
         });
