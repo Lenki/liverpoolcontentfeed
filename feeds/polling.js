@@ -6,14 +6,6 @@ const email = require('./util/email-reminder');
 const THIRTY_MIN = 1.8e6;
 const STREAM_ID = 'user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2'
 
-// Response to expired token. Email me a reminder!
-
-// {
-//   "errorCode": 401,
-//   "errorId": "ap7int-sv2.2019122315.425028",
-//   "errorMessage": "unauthorized access: not logged in"
-// }
-
 module.exports = {
     liverpoolFeeds: function () {
         setInterval(() => {
@@ -75,6 +67,6 @@ module.exports = {
                     });
                 }
             )
-        }, 10000)
+        }, THIRTY_MIN)
     }
 }
