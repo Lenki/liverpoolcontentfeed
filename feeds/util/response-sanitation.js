@@ -16,9 +16,14 @@ const stripFeed = (feed) => {
         }
         articles = _.merge(articles, article);
     }
-    const filteredList =  _.uniqBy(articles.items, 'originId');
+    // const filteredList =  _.uniqBy(articles.items, 'originId');
+    const filteredList =  removeDuplicates(articles.items);
 
     return { items: [...filteredList] }
 }
 
-exports.stripFeed = stripFeed;
+const removeDuplicates = (listOfArticles) => {
+    return _.uniqBy(listOfArticles, 'originId');
+}
+
+exports.sanitation = {stripFeed, removeDuplicates};
