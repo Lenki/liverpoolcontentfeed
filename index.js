@@ -4,7 +4,7 @@ const fs = require('fs');
 const express = require('express');
 const app = express();
 const poll = require('./feeds/polling');
-const { sanitation } = require('./feeds/util/response-sanitation');
+const sanitation = require('./feeds/util/response-sanitation');
 const { combineFeeds }  = require("./feeds/util/combineFeeds");
 
 const port = process.env.PORT;

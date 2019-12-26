@@ -26,4 +26,5 @@ const removeDuplicates = (listOfArticles) => {
     return _.uniqBy(listOfArticles, 'originId');
 }
 
-exports.sanitation = {stripFeed, removeDuplicates};
+exports.stripFeed = stripFeed;
+exports.removeDuplicates = removeDuplicates;

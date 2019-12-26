@@ -1,5 +1,5 @@
 var assert = require('assert');
-const { sanitation } = require('../feeds/util/response-sanitation');
+const sanitation = require('../feeds/util/response-sanitation');
 const popularFeed = require('../test/util/popularfeedtest.json')
 const empireOfTheKopFeed = require('../test/util/empireofthekopfeed.json')
 const duplicateItemsFeed = require('../test/util/duplicateItemsFeed.json')

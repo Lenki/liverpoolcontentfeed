@@ -1,5 +1,5 @@
 const request = require('request');
-const sanitiser = require('./util/response-sanitation');
+const sanitation = require('./util/response-sanitation');
 const email = require('./util/email-reminder');
 const {writeFile} = require('./util/writeToFile');
 
@@ -25,7 +25,7 @@ module.exports = {
                         email.sendMail(body)
                         return;
                     }
-                    const articles = sanitiser.stripFeed(response);
+                    const articles = sanitation.stripFeed(response);
 
                     writeFile("./feeds/featured-feed.txt", articles)
                 }
@@ -49,11 +49,11 @@ module.exports = {
                         email.sendMail(body)
                         return;
                     }
-                    const articles = sanitiser.stripFeed(response);
+                    const articles = sanitation.stripFeed(response);
 
                     writeFile("./feeds/general-feed.txt", articles)
                 }
             )
-        }, TWENTY_NINE_MINS)
+        }, 10000)
     }
 }
