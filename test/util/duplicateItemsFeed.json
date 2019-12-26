@@ -1,0 +1,386 @@
+{
+    "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+    "items": [
+      {
+        "id": "5cyZeJUbAmHRCO76keYlDKRZTSkE2P4eVL+3CAoYvYA=_16f37599051:4cdf97:512e2118",
+        "keywords": [
+          "News Story"
+        ],
+        "originId": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "fingerprint": "11d7cfe7",
+        "title": "Injured Ox to miss Liverpool's final games of 2019",
+        "summary": {
+          "content": "Jurgen Klopp has confirmed Alex Oxlade-Chamberlain will miss Liverpool's final two games of 2019 due to an ankle ligament injury.",
+          "direction": "ltr"
+        },
+        "enclosure": [
+          {
+            "href": "https://e2.365dm.com/19/12/128x67/skysports-oxlade-chamberlain_4873042.jpg?20191221193559",
+            "type": "image/jpg",
+            "length": 123456
+          }
+        ],
+        "alternate": [
+          {
+            "href": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+            "type": "text/html"
+          }
+        ],
+        "crawled": 1577181614161,
+        "published": 1577180880000,
+        "origin": {
+          "streamId": "feed/http://www.skysports.com/rss/0,20514,11669,00.xml",
+          "title": "SkySports | Liverpool",
+          "htmlUrl": "http://www.skysports.com"
+        },
+        "visual": {
+          "processor": "feedly-nikon-v3.1",
+          "url": "https://e2.365dm.com/19/12/768x432/skysports-oxlade-chamberlain_4873042.jpg?20191221193559",
+          "width": 768,
+          "height": 432,
+          "contentType": "image/jpeg"
+        },
+        "canonicalUrl": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "ampUrl": "https://www.skysports.com/amp/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "cdnAmpUrl": "https://www-skysports-com.cdn.ampproject.org/c/s/www.skysports.com/amp/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "unread": true,
+        "categories": [
+          {
+            "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+            "label": "Liverpool RSS"
+          }
+        ],
+        "commonTopics": [
+          {
+            "score": 103.15225522103107,
+            "id": "nlp/f/topic/3020",
+            "salienceLevel": "about",
+            "label": "soccer"
+          },
+          {
+            "score": 55.28352288807935,
+            "id": "nlp/f/topic/3024",
+            "salienceLevel": "about",
+            "label": "sport"
+          },
+          {
+            "score": 32.53719499712127,
+            "id": "nlp/f/topic/3029",
+            "salienceLevel": "about",
+            "label": "games"
+          }
+        ],
+        "entities": [
+          {
+            "mentions": [
+              {
+                "text": "Liverpool"
+              },
+              {
+                "text": "Liverpool's"
+              }
+            ],
+            "id": "nlp/f/entity/wd:1130849",
+            "salienceLevel": "about",
+            "label": "Liverpool F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "Flamengo"
+              }
+            ],
+            "id": "nlp/f/entity/wd:17479",
+            "salienceLevel": "mention",
+            "label": "Clube de Regatas do Flamengo"
+          },
+          {
+            "mentions": [
+              {
+                "text": "Leicester"
+              }
+            ],
+            "id": "nlp/f/entity/wd:19481",
+            "salienceLevel": "mention",
+            "label": "Leicester City F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "Wolves"
+              }
+            ],
+            "id": "nlp/f/entity/wd:19500",
+            "salienceLevel": "mention",
+            "label": "Wolverhampton Wanderers F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "England international"
+              }
+            ],
+            "id": "nlp/f/entity/wd:47762",
+            "salienceLevel": "mention",
+            "label": "England national football team"
+          }
+        ],
+        "engagement": 2295,
+        "engagementRate": 0.96
+      },
+      {
+        "id": "5cyZeJUbAmHRCO76keYlDKRZTSkE2P4eVL+3CAoYvYA=_16f37599051:4cdf97:512e2118",
+        "keywords": [
+          "News Story"
+        ],
+        "originId": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "fingerprint": "11d7cfe7",
+        "title": "Injured Ox to miss Liverpool's final games of 2019",
+        "summary": {
+          "content": "Jurgen Klopp has confirmed Alex Oxlade-Chamberlain will miss Liverpool's final two games of 2019 due to an ankle ligament injury.",
+          "direction": "ltr"
+        },
+        "enclosure": [
+          {
+            "href": "https://e2.365dm.com/19/12/128x67/skysports-oxlade-chamberlain_4873042.jpg?20191221193559",
+            "type": "image/jpg",
+            "length": 123456
+          }
+        ],
+        "alternate": [
+          {
+            "href": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+            "type": "text/html"
+          }
+        ],
+        "crawled": 1577181614161,
+        "published": 1577180880000,
+        "origin": {
+          "streamId": "feed/http://www.skysports.com/rss/0,20514,11669,00.xml",
+          "title": "SkySports | Liverpool",
+          "htmlUrl": "http://www.skysports.com"
+        },
+        "visual": {
+          "processor": "feedly-nikon-v3.1",
+          "url": "https://e2.365dm.com/19/12/768x432/skysports-oxlade-chamberlain_4873042.jpg?20191221193559",
+          "width": 768,
+          "height": 432,
+          "contentType": "image/jpeg"
+        },
+        "canonicalUrl": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "ampUrl": "https://www.skysports.com/amp/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "cdnAmpUrl": "https://www-skysports-com.cdn.ampproject.org/c/s/www.skysports.com/amp/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "unread": true,
+        "categories": [
+          {
+            "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+            "label": "Liverpool RSS"
+          }
+        ],
+        "commonTopics": [
+          {
+            "score": 103.15225522103107,
+            "id": "nlp/f/topic/3020",
+            "salienceLevel": "about",
+            "label": "soccer"
+          },
+          {
+            "score": 55.28352288807935,
+            "id": "nlp/f/topic/3024",
+            "salienceLevel": "about",
+            "label": "sport"
+          },
+          {
+            "score": 32.53719499712127,
+            "id": "nlp/f/topic/3029",
+            "salienceLevel": "about",
+            "label": "games"
+          }
+        ],
+        "entities": [
+          {
+            "mentions": [
+              {
+                "text": "Liverpool"
+              },
+              {
+                "text": "Liverpool's"
+              }
+            ],
+            "id": "nlp/f/entity/wd:1130849",
+            "salienceLevel": "about",
+            "label": "Liverpool F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "Flamengo"
+              }
+            ],
+            "id": "nlp/f/entity/wd:17479",
+            "salienceLevel": "mention",
+            "label": "Clube de Regatas do Flamengo"
+          },
+          {
+            "mentions": [
+              {
+                "text": "Leicester"
+              }
+            ],
+            "id": "nlp/f/entity/wd:19481",
+            "salienceLevel": "mention",
+            "label": "Leicester City F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "Wolves"
+              }
+            ],
+            "id": "nlp/f/entity/wd:19500",
+            "salienceLevel": "mention",
+            "label": "Wolverhampton Wanderers F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "England international"
+              }
+            ],
+            "id": "nlp/f/entity/wd:47762",
+            "salienceLevel": "mention",
+            "label": "England national football team"
+          }
+        ],
+        "engagement": 2295,
+        "engagementRate": 0.96
+      },
+      {
+        "id": "5cyZeJUbAmHRCO76keYlDKRZTSkE2P4eVL+3CAoYvYA=_16f37599051:4cdf97:512e2118",
+        "keywords": [
+          "News Story"
+        ],
+        "originId": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "fingerprint": "11d7cfe7",
+        "title": "Injured Ox to miss Liverpool's final games of 2019",
+        "summary": {
+          "content": "Jurgen Klopp has confirmed Alex Oxlade-Chamberlain will miss Liverpool's final two games of 2019 due to an ankle ligament injury.",
+          "direction": "ltr"
+        },
+        "enclosure": [
+          {
+            "href": "https://e2.365dm.com/19/12/128x67/skysports-oxlade-chamberlain_4873042.jpg?20191221193559",
+            "type": "image/jpg",
+            "length": 123456
+          }
+        ],
+        "alternate": [
+          {
+            "href": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+            "type": "text/html"
+          }
+        ],
+        "crawled": 1577181614161,
+        "published": 1577180880000,
+        "origin": {
+          "streamId": "feed/http://www.skysports.com/rss/0,20514,11669,00.xml",
+          "title": "SkySports | Liverpool",
+          "htmlUrl": "http://www.skysports.com"
+        },
+        "visual": {
+          "processor": "feedly-nikon-v3.1",
+          "url": "https://e2.365dm.com/19/12/768x432/skysports-oxlade-chamberlain_4873042.jpg?20191221193559",
+          "width": 768,
+          "height": 432,
+          "contentType": "image/jpeg"
+        },
+        "canonicalUrl": "https://www.skysports.com/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "ampUrl": "https://www.skysports.com/amp/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "cdnAmpUrl": "https://www-skysports-com.cdn.ampproject.org/c/s/www.skysports.com/amp/football/news/11669/11894608/alex-oxlade-chamberlain-to-miss-liverpools-final-games-of-2019-due-to-ankle-injury",
+        "unread": true,
+        "categories": [
+          {
+            "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+            "label": "Liverpool RSS"
+          }
+        ],
+        "commonTopics": [
+          {
+            "score": 103.15225522103107,
+            "id": "nlp/f/topic/3020",
+            "salienceLevel": "about",
+            "label": "soccer"
+          },
+          {
+            "score": 55.28352288807935,
+            "id": "nlp/f/topic/3024",
+            "salienceLevel": "about",
+            "label": "sport"
+          },
+          {
+            "score": 32.53719499712127,
+            "id": "nlp/f/topic/3029",
+            "salienceLevel": "about",
+            "label": "games"
+          }
+        ],
+        "entities": [
+          {
+            "mentions": [
+              {
+                "text": "Liverpool"
+              },
+              {
+                "text": "Liverpool's"
+              }
+            ],
+            "id": "nlp/f/entity/wd:1130849",
+            "salienceLevel": "about",
+            "label": "Liverpool F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "Flamengo"
+              }
+            ],
+            "id": "nlp/f/entity/wd:17479",
+            "salienceLevel": "mention",
+            "label": "Clube de Regatas do Flamengo"
+          },
+          {
+            "mentions": [
+              {
+                "text": "Leicester"
+              }
+            ],
+            "id": "nlp/f/entity/wd:19481",
+            "salienceLevel": "mention",
+            "label": "Leicester City F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "Wolves"
+              }
+            ],
+            "id": "nlp/f/entity/wd:19500",
+            "salienceLevel": "mention",
+            "label": "Wolverhampton Wanderers F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "England international"
+              }
+            ],
+            "id": "nlp/f/entity/wd:47762",
+            "salienceLevel": "mention",
+            "label": "England national football team"
+          }
+        ],
+        "engagement": 2295,
+        "engagementRate": 0.96
+      }
+    ]
+  }

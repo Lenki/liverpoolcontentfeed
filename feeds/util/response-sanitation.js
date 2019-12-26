@@ -16,7 +16,9 @@ const stripFeed = (feed) => {
         }
         articles = _.merge(articles, article);
     }
-    return articles;
+    const filteredList =  _.uniqBy(articles.items, 'originId');
+
+    return { items: [...filteredList] }
 }
 
 exports.stripFeed = stripFeed;
