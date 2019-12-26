@@ -4,13 +4,13 @@ const popularFeed = require('../test/util/popularfeedtest.json')
 const empireOfTheKopFeed = require('../test/util/empireofthekopfeed.json')
 const duplicateItemsFeed = require('../test/util/duplicateItemsFeed.json')
 
-describe('stripFeed', function () {
+describe('Response Sanitation - stripFeed()', function () {
     describe('new object creation', function () {
 
         it('should contain originId, title and visual', function () {
             const sanitisedFeed = sanitation.stripFeed(popularFeed);
             const firstItem = sanitisedFeed.items[0]
-            assert.deepEqual(Object.keys(firstItem), ["originId", "title", "visual"]);
+            assert.deepEqual(Object.keys(firstItem), ["originId", "title", "visual", "published"]);
         });
 
         it('visual should contain a url', function () {

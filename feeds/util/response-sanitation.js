@@ -9,7 +9,7 @@ const stripFeed = (feed) => {
     const feedSize = feed.items.length;
     // TODO - make functional
     for (let i = 0; i < feedSize; i++) {
-        var article = _.pick(feed, [`items[${i}].originId`, `items[${i}].title`, `items[${i}].visual.url`]);
+        var article = _.pick(feed, [`items[${i}].originId`, `items[${i}].title`, `items[${i}].visual.url`, `items[${i}].published`]);
         const articleSource = _.get(article, `items[${i}].originId`);
         if (articleSource.includes(EMPIRE_OF_THE_KOP)) {
             article = _.set(article, `items[${i}].visual.url`, EMPIRE_OF_THE_KOP_IMAGE);

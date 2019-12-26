@@ -54,6 +54,6 @@ module.exports = {
                     writeFile("./feeds/general-feed.txt", articles)
                 }
             )
-        }, 10000)
+        }, TWENTY_NINE_MINS)
     }
 }
