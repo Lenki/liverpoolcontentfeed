@@ -1,12 +1,12 @@
 const request = require('request');
 const sanitation = require('./util/response-sanitation');
 const email = require('./util/email-reminder');
-const {writeFile} = require('./util/writeToFile');
+const {storeData} = require('./util/storeData');
 
 const TWENTY_NINE_MINS = 1.74e6;
 
 module.exports = {
-    liverpoolFeeds: function () {
+    liverpoolFeeds: function (database) {
         setInterval(() => {
             request(
                 'https://feedly.com/v3/mixes/contents',
@@ -27,7 +27,7 @@ module.exports = {
                     }
                     const articles = sanitation.stripFeed(response);
 
-                    writeFile("./feeds/featured-feed.txt", articles)
+                    storeData('featured', articles, database)
                 }
             )
 
@@ -51,7 +51,7 @@ module.exports = {
                     }
                     const articles = sanitation.stripFeed(response);
 
-                    writeFile("./feeds/general-feed.txt", articles)
+                    storeData('general', articles, database)
                 }
             )
         }, TWENTY_NINE_MINS)
