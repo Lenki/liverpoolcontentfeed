@@ -23,7 +23,10 @@ app.get('/liverpoolfc/articles', (req, res) => {
             });
             const combinedFeed = combineFeeds(articles[0], articles[1]);
             const sanitisedArticles = sanitation.removeDuplicates(combinedFeed.articles)
-            const sanitisedFeeds = { articles: [...sanitisedArticles] }
+            const sanitisedFeeds = {
+                feed_last_published: articles[0].published,
+                articles: [...sanitisedArticles]
+            }
             res.send(sanitisedFeeds);
         })
         .catch((err) => {
