@@ -26,8 +26,8 @@ module.exports = {
                         return;
                     }
                     const articles = sanitation.stripFeed(response);
-
-                    storeData('featured', articles, database)
+                    const articlesWithTimeStamp = sanitation.addTimeStamp(articles);
+                    storeData('featured', articlesWithTimeStamp, database)
                 }
             )
 
@@ -50,8 +50,8 @@ module.exports = {
                         return;
                     }
                     const articles = sanitation.stripFeed(response);
-
-                    storeData('general', articles, database)
+                    const articlesWithTimeStamp = sanitation.addTimeStamp(articles);
+                    storeData('general', articlesWithTimeStamp, database)
                 }
             )
         }, TWENTY_NINE_MINS)

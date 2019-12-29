@@ -16,7 +16,6 @@ const stripFeed = (feed) => {
         }
         articles = _.merge(articles, article);
     }
-    // const filteredList =  _.uniqBy(articles.items, 'originId');
     const filteredList =  removeDuplicates(articles.items);
 
     return { items: [...filteredList] }
@@ -26,5 +25,13 @@ const removeDuplicates = (listOfArticles) => {
     return _.uniqBy(listOfArticles, 'originId');
 }
 
+const addTimeStamp = (listOfArticles) => {
+    return {
+        published : Date.now(),
+        ...listOfArticles
+    }
+}
+
 exports.stripFeed = stripFeed;
 exports.removeDuplicates = removeDuplicates;
+exports.addTimeStamp = addTimeStamp;
