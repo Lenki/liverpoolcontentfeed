@@ -4,6 +4,7 @@ const popularFeed = require('../test/util/popularfeedtest.json')
 const empireOfTheKopFeed = require('../test/util/empireofthekopfeed.json')
 const duplicateItemsFeed = require('../test/util/duplicateItemsFeed.json')
 const thisIsAnfieldFeed = require('../test/util/thisisanfield.json')
+const empireofthekopbadurl = require('../test/util/empireofthekopbadurl.json')
 
 describe('Response Sanitation', function () {
     describe('stripFeed()', function () {
@@ -34,6 +35,11 @@ describe('Response Sanitation', function () {
         it("thisisanfild sources should use alternate href instead of originId for the website link", () => {
             const sanitisedFeed = sanitation.stripFeed(thisIsAnfieldFeed)
             assert.deepEqual(sanitisedFeed.items[0].originId, "https://www.thisisanfield.com/2020/01/full-strength-side-with-keita-back-predicting-liverpools-lineup-vs-sheffield-united/")
+        })
+
+        it("source should use alternate href when 'p=' is present in the originId", () => {
+            const sanitisedFeed = sanitation.stripFeed(empireofthekopbadurl)
+            assert.deepEqual(sanitisedFeed.items[1].originId, "https://www.empireofthekop.com/2020/01/02/video-minamino-tries-to-skill-milner-in-liverpool-training-rondo/")
         })
     });
 
