@@ -1,0 +1,269 @@
+{
+    "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+    "items": [
+      {
+        "id": "5TJJtcHXaYLUTjX6hQNkKKzaDat8SAt8uBLRDXR4sLY=_16f620fe5a7:2fc5680:dcfbed0f",
+        "keywords": [
+          "Featured",
+          "Liverpool FC News",
+          "Liverpool vs Sheffield United",
+          "Premier League",
+          "Sheffield United",
+          "Team Selection"
+        ],
+        "originId": "https://www.thisisanfield.com/?p=220208",
+        "fingerprint": "e42468d3",
+        "thumbnail": [
+          {
+            "url": "https://www.thisisanfield.com/wp-content/uploads/P2019-12-26-Leicester_Liverpool-48-600x400.jpg",
+            "width": 600,
+            "height": 400
+          }
+        ],
+        "title": "Full-strength side with Keita back – Predicting Liverpool’s lineup vs. Sheffield United",
+        "author": "Jack Lusby",
+        "summary": {
+          "content": "Jurgen Klopp is unlikely to rotate heavily as Liverpool prepare for their first game of 2020, up against Sheffield United […]",
+          "direction": "ltr"
+        },
+        "enclosure": [
+          {
+            "href": "https://www.thisisanfield.com/wp-content/uploads/P2019-12-26-Leicester_Liverpool-48.jpg",
+            "type": "image/jpg",
+            "length": 205929
+          },
+          {
+            "href": "https://www.thisisanfield.com/wp-content/uploads/P2019-12-26-Leicester_Liverpool-48-80x80.jpg",
+            "width": 80,
+            "height": 80,
+            "type": "image/jpeg"
+          }
+        ],
+        "alternate": [
+          {
+            "href": "https://www.thisisanfield.com/2020/01/full-strength-side-with-keita-back-predicting-liverpools-lineup-vs-sheffield-united/",
+            "type": "text/html"
+          }
+        ],
+        "crawled": 1577898206631,
+        "published": 1577895384000,
+        "origin": {
+          "streamId": "feed/http://www.thisisanfield.com/feed/",
+          "title": "This Is Anfield",
+          "htmlUrl": "https://www.thisisanfield.com"
+        },
+        "visual": {
+          "processor": "feedly-nikon-v3.1",
+          "url": "https://www.thisisanfield.com/wp-content/uploads/P2019-12-26-Leicester_Liverpool-48.jpg",
+          "width": 1200,
+          "height": 800,
+          "contentType": "image/jpeg"
+        },
+        "canonicalUrl": "https://www.thisisanfield.com/2020/01/full-strength-side-with-keita-back-predicting-liverpools-lineup-vs-sheffield-united/",
+        "ampUrl": "https://www.thisisanfield.com/2020/01/full-strength-side-with-keita-back-predicting-liverpools-lineup-vs-sheffield-united/amp/",
+        "cdnAmpUrl": "https://www-thisisanfield-com.cdn.ampproject.org/c/s/www.thisisanfield.com/2020/01/full-strength-side-with-keita-back-predicting-liverpools-lineup-vs-sheffield-united/amp/",
+        "unread": true,
+        "categories": [
+          {
+            "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+            "label": "Liverpool RSS"
+          }
+        ],
+        "commonTopics": [
+          {
+            "score": 251.6734998835368,
+            "id": "nlp/f/topic/3020",
+            "salienceLevel": "about",
+            "label": "soccer"
+          },
+          {
+            "score": 27.82517687290697,
+            "id": "nlp/f/topic/3040",
+            "salienceLevel": "about",
+            "label": "crime"
+          }
+        ],
+        "entities": [
+          {
+            "mentions": [
+              {
+                "text": "Sheffield United"
+              },
+              {
+                "text": "The Blades"
+              }
+            ],
+            "id": "nlp/f/entity/wd:19607",
+            "salienceLevel": "about",
+            "label": "Sheffield United F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "Liverpool"
+              },
+              {
+                "text": "Liverpool's"
+              }
+            ],
+            "id": "nlp/f/entity/wd:1130849",
+            "salienceLevel": "about",
+            "label": "Liverpool F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "Reds"
+              }
+            ],
+            "id": "nlp/f/entity/wd:1368281",
+            "salienceLevel": "mention",
+            "label": "Queensland Reds"
+          },
+          {
+            "mentions": [
+              {
+                "text": "Premier League"
+              }
+            ],
+            "id": "nlp/f/entity/wd:9448",
+            "salienceLevel": "mention",
+            "label": "Premier League"
+          },
+          {
+            "mentions": [
+              {
+                "text": "Wolves"
+              }
+            ],
+            "id": "nlp/f/entity/wd:19500",
+            "salienceLevel": "mention",
+            "label": "Wolverhampton Wanderers F.C."
+          }
+        ],
+        "engagement": 1885,
+        "engagementRate": 0.83
+      },
+      {
+        "id": "5cyZeJUbAmHRCO76keYlDKRZTSkE2P4eVL+3CAoYvYA=_16f61dad6d1:30ea838:512e2118",
+        "keywords": [
+          "News Story"
+        ],
+        "originId": "https://www.skysports.com/football/news/11669/11899091/liverpools-new-signing-takumi-minamino-will-need-patience-says-jurgen-klopp",
+        "fingerprint": "c3b147cc",
+        "title": "Minamino will need patience - Klopp",
+        "summary": {
+          "content": "Liverpool boss Jurgen Klopp has urged patience with new signing Takumi Minamino after he was officially unveiled at the club.",
+          "direction": "ltr"
+        },
+        "enclosure": [
+          {
+            "href": "https://e0.365dm.com/19/12/128x67/skysports-takumi-minamino-liverpool_4870608.jpg?20191231103341",
+            "type": "image/jpg",
+            "length": 123456
+          }
+        ],
+        "alternate": [
+          {
+            "href": "https://www.skysports.com/football/news/11669/11899091/liverpools-new-signing-takumi-minamino-will-need-patience-says-jurgen-klopp",
+            "type": "text/html"
+          }
+        ],
+        "crawled": 1577894729425,
+        "published": 1577893800000,
+        "origin": {
+          "streamId": "feed/http://www.skysports.com/rss/0,20514,11669,00.xml",
+          "title": "SkySports | Liverpool",
+          "htmlUrl": "http://www.skysports.com"
+        },
+        "visual": {
+          "processor": "feedly-nikon-v3.1",
+          "url": "https://e1.365dm.com/19/12/1600x900/skysports-takumi-minamino-liverpool_4870608.jpg",
+          "width": 1600,
+          "height": 900,
+          "contentType": "image/jpeg"
+        },
+        "canonicalUrl": "https://www.skysports.com/football/news/11669/11899091/liverpools-new-signing-takumi-minamino-will-need-patience-says-jurgen-klopp",
+        "ampUrl": "https://www.skysports.com/amp/football/news/11669/11899091/liverpools-new-signing-takumi-minamino-will-need-patience-says-jurgen-klopp",
+        "cdnAmpUrl": "https://www-skysports-com.cdn.ampproject.org/c/s/www.skysports.com/amp/football/news/11669/11899091/liverpools-new-signing-takumi-minamino-will-need-patience-says-jurgen-klopp",
+        "unread": true,
+        "categories": [
+          {
+            "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+            "label": "Liverpool RSS"
+          }
+        ],
+        "commonTopics": [
+          {
+            "score": 85.60886442016167,
+            "id": "nlp/f/topic/3020",
+            "salienceLevel": "about",
+            "label": "soccer"
+          },
+          {
+            "score": 0.726,
+            "id": "nlp/f/topic/2153",
+            "salienceLevel": "mention",
+            "label": "sports business"
+          }
+        ],
+        "entities": [
+          {
+            "mentions": [
+              {
+                "text": "Liverpool"
+              },
+              {
+                "text": "Liverpool's"
+              }
+            ],
+            "id": "nlp/f/entity/wd:1130849",
+            "salienceLevel": "mention",
+            "label": "Liverpool F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "Premier League"
+              }
+            ],
+            "id": "nlp/f/entity/wd:9448",
+            "salienceLevel": "mention",
+            "label": "Premier League"
+          },
+          {
+            "mentions": [
+              {
+                "text": "Red Bull Salzburg"
+              }
+            ],
+            "id": "nlp/f/entity/wd:994811",
+            "salienceLevel": "mention",
+            "label": "FC Red Bull Salzburg"
+          },
+          {
+            "mentions": [
+              {
+                "text": "Everton"
+              }
+            ],
+            "id": "nlp/f/entity/wd:5794",
+            "salienceLevel": "mention",
+            "label": "Everton F.C."
+          },
+          {
+            "mentions": [
+              {
+                "text": "the FA"
+              }
+            ],
+            "id": "nlp/f/entity/wd:9500",
+            "salienceLevel": "mention",
+            "label": "The Football Association"
+          }
+        ],
+        "engagement": 1891,
+        "engagementRate": 0.79
+      }
+    ]
+  }

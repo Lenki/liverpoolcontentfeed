@@ -3,6 +3,7 @@ const sanitation = require('../feeds/util/response-sanitation');
 const popularFeed = require('../test/util/popularfeedtest.json')
 const empireOfTheKopFeed = require('../test/util/empireofthekopfeed.json')
 const duplicateItemsFeed = require('../test/util/duplicateItemsFeed.json')
+const thisIsAnfieldFeed = require('../test/util/thisisanfield.json')
 
 describe('Response Sanitation', function () {
     describe('stripFeed()', function () {
@@ -29,6 +30,11 @@ describe('Response Sanitation', function () {
             const sanitisedFeed = sanitation.stripFeed(duplicateItemsFeed);
             assert.equal(sanitisedFeed.items.length, 1)
         });
+
+        it("thisisanfild sources should use alternate href instead of originId for the website link", () => {
+            const sanitisedFeed = sanitation.stripFeed(thisIsAnfieldFeed)
+            assert.deepEqual(sanitisedFeed.items[0].originId, "https://www.thisisanfield.com/2020/01/full-strength-side-with-keita-back-predicting-liverpools-lineup-vs-sheffield-united/")
+        })
     });
 
     describe('removeDuplicates()', () => {
