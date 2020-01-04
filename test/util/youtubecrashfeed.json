@@ -1,0 +1,565 @@
+{
+    "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+    "updated": 1578093946386,
+    "continuation": "16f6b5a100a:39d906a:dcfbed0f",
+    "items": [
+        {
+            "id": "V6ttD2pXsf4xupAUTIXWmJICqWEwMEPLfyCHBcwD/Nc=_16f6b841be7:3beedd9:512e2118",
+            "originId": "yt:video:_PkP0gi04cw",
+            "fingerprint": "4dd8447e",
+            "thumbnail": [
+                {
+                    "url": "https://i4.ytimg.com/vi/_PkP0gi04cw/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            ],
+            "content": {
+                "content": "Watch as the boss addresses the media ahead of the eagerly anticipated FA Cup third round clash against rivals Everton.\nEnjoy more content and get exclusive perks in our Liverpool FC Members Area, click here to find out more: https://www.youtube.com/LiverpoolFC/join\nSubscribe now to Liverpool FC on YouTube now and get notified when new videos land: https://www.youtube.com/subscription_center?add_user=LiverpoolFC",
+                "direction": "ltr"
+            },
+            "title": "Jürgen Klopp's pre-match press conference | Everton",
+            "updated": 1578056271000,
+            "author": "Liverpool FC",
+            "enclosure": [
+                {
+                    "href": "https://www.youtube.com/v/_PkP0gi04cw?version=3",
+                    "width": 640,
+                    "height": 390,
+                    "type": "application/x-shockwave-flash"
+                }
+            ],
+            "alternate": [
+                {
+                    "href": "https://www.youtube.com/watch?v=_PkP0gi04cw",
+                    "type": "text/html"
+                }
+            ],
+            "crawled": 1578056817639,
+            "published": 1578046879000,
+            "origin": {
+                "streamId": "feed/https://www.youtube.com/feeds/videos.xml?channel_id=UC9LQwHZoucFT94I2h6JOcjw",
+                "title": "Liverpool FC",
+                "htmlUrl": "https://www.youtube.com/channel/UC9LQwHZoucFT94I2h6JOcjw"
+            },
+            "visual": {
+                "processor": "feedly-nikon-v3.1",
+                "url": "https://i4.ytimg.com/vi/_PkP0gi04cw/hqdefault.jpg",
+                "width": 480,
+                "height": 360,
+                "contentType": "image/jpeg"
+            },
+            "unread": true,
+            "categories": [
+                {
+                    "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+                    "label": "Liverpool RSS"
+                }
+            ],
+            "commonTopics": [
+                {
+                    "score": 96.34325240558034,
+                    "id": "nlp/f/topic/3020",
+                    "salienceLevel": "about",
+                    "label": "soccer"
+                }
+            ],
+            "entities": [
+                {
+                    "mentions": [
+                        {
+                            "text": "Everton"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:5794",
+                    "salienceLevel": "about",
+                    "label": "Everton F.C."
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Liverpool FC"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:1130849",
+                    "salienceLevel": "mention",
+                    "label": "Liverpool F.C."
+                }
+            ]
+        },
+        {
+            "id": "j9TxCnzwa4VuKnLeENrS8G04O+mHmeSUNwUlWS0MQ/g=_16f6b829b20:3aa243e:bb2cd839",
+            "originId": "https://www.liverpoolfc.com/news/first-team/380919-shaqiri-s-everton-finish-nominated-for-premier-league-goal-of-the-month",
+            "fingerprint": "e80687ef",
+            "summary": {
+                "content": "Xherdan Shaqiri's cool strike against Everton has been nominated for Premier League Goal of the Month for December.",
+                "direction": "ltr"
+            },
+            "alternate": [
+                {
+                    "href": "https://www.liverpoolfc.com/news/first-team/380919-shaqiri-s-everton-finish-nominated-for-premier-league-goal-of-the-month",
+                    "type": "text/html"
+                }
+            ],
+            "crawled": 1578056719136,
+            "title": "Shaqiri's Everton finish nominated for Premier League Goal of the Month",
+            "published": 1578056400000,
+            "origin": {
+                "streamId": "feed/http://www.liverpoolfc.tv/rss/news/latest",
+                "htmlUrl": "https://www.liverpoolfc.com/news.rss",
+                "title": "LiverpoolFC News"
+            },
+            "visual": {
+                "processor": "feedly-nikon-v3.1",
+                "url": "https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0002/01/thumb_100196_default_news_size_5.jpeg",
+                "width": 850,
+                "height": 510,
+                "contentType": "image/jpeg"
+            },
+            "canonicalUrl": "https://www.liverpoolfc.com/news/first-team/380919-shaqiri-s-everton-finish-nominated-for-premier-league-goal-of-the-month",
+            "ampUrl": "https://www.liverpoolfc.com/amp/news/first-team/380919-shaqiri-s-everton-finish-nominated-for-premier-league-goal-of-the-month",
+            "cdnAmpUrl": "https://www-liverpoolfc-com.cdn.ampproject.org/c/s/www.liverpoolfc.com/amp/news/first-team/380919-shaqiri-s-everton-finish-nominated-for-premier-league-goal-of-the-month",
+            "unread": true,
+            "categories": [
+                {
+                    "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+                    "label": "Liverpool RSS"
+                }
+            ],
+            "commonTopics": [
+                {
+                    "score": 170.74384483823715,
+                    "id": "nlp/f/topic/3020",
+                    "salienceLevel": "about",
+                    "label": "soccer"
+                },
+                {
+                    "score": 38.942219572217475,
+                    "id": "nlp/f/topic/3024",
+                    "salienceLevel": "about",
+                    "label": "sport"
+                }
+            ],
+            "entities": [
+                {
+                    "mentions": [
+                        {
+                            "text": "Everton"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:5794",
+                    "salienceLevel": "about",
+                    "label": "Everton F.C."
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Liverpool"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:1130849",
+                    "salienceLevel": "mention",
+                    "label": "Liverpool F.C."
+                }
+            ],
+            "engagement": 1159,
+            "engagementRate": 0.32
+        },
+        {
+            "id": "gEnsITk76Xy6RrYujKQfY6lCToorNV6uDuhjO3YE2Fc=_16f6b7480d2:3bdbdf1:512e2118",
+            "keywords": [
+                "Liverpool FC"
+            ],
+            "originId": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-press-conference-live-17507604",
+            "recrawled": 1578064432047,
+            "updateCount": 1,
+            "fingerprint": "db3534a6",
+            "thumbnail": [
+                {
+                    "url": "https://i2-prod.liverpoolecho.co.uk/incoming/article17507593.ece/ALTERNATES/s98/0_JS201739213.jpg",
+                    "width": 98,
+                    "height": 98
+                }
+            ],
+            "author": "liverpool.news@trinitymirror.com (Connor Dunn, Paul Gorst, Kathryn Batte)",
+            "summary": {
+                "content": "Liverpool boss Jurgen Klopp speaks to the media ahead of Everton FA Cup clash to give injury updates, transfer latest and team news",
+                "direction": "ltr"
+            },
+            "enclosure": [
+                {
+                    "href": "https://i2-prod.liverpoolecho.co.uk/incoming/article17507593.ece/ALTERNATES/s615/0_JS201739213.jpg",
+                    "type": "image/jpeg",
+                    "length": 754605
+                },
+                {
+                    "href": "https://i2-prod.liverpoolecho.co.uk/incoming/article17507593.ece/ALTERNATES/s615/0_JS201739213.jpg",
+                    "width": 615,
+                    "height": 409,
+                    "type": "image/jpeg"
+                }
+            ],
+            "alternate": [
+                {
+                    "href": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-press-conference-live-17507604",
+                    "type": "text/html"
+                }
+            ],
+            "crawled": 1578055794898,
+            "title": "Everything Jurgen Klopp had to say in Liverpool press conference ahead of FA Cup clash with Everton",
+            "published": 1578054597000,
+            "origin": {
+                "streamId": "feed/http://www.liverpoolecho.co.uk/all-about/liverpool%20fc?service=rss",
+                "htmlUrl": "https://www.liverpoolecho.co.uk",
+                "title": "Liverpool Echo - Liverpool FC"
+            },
+            "visual": {
+                "processor": "feedly-nikon-v3.1",
+                "url": "https://i2-prod.liverpoolecho.co.uk/incoming/article17507593.ece/ALTERNATES/s615/0_JS201739213.jpg",
+                "width": 615,
+                "height": 409,
+                "contentType": "image/jpeg"
+            },
+            "canonicalUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-press-conference-live-17507604",
+            "ampUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-press-conference-live-17507604.amp",
+            "cdnAmpUrl": "https://www-liverpoolecho-co-uk.cdn.ampproject.org/c/s/www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-press-conference-live-17507604.amp",
+            "unread": true,
+            "categories": [
+                {
+                    "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+                    "label": "Liverpool RSS"
+                }
+            ],
+            "commonTopics": [
+                {
+                    "score": 137.66721239605488,
+                    "id": "nlp/f/topic/3020",
+                    "salienceLevel": "about",
+                    "label": "soccer"
+                }
+            ],
+            "entities": [
+                {
+                    "mentions": [
+                        {
+                            "text": "Liverpool"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:1130849",
+                    "salienceLevel": "about",
+                    "label": "Liverpool F.C."
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Everton"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:5794",
+                    "salienceLevel": "about",
+                    "label": "Everton F.C."
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "the FA"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:9500",
+                    "salienceLevel": "mention",
+                    "label": "The Football Association"
+                }
+            ],
+            "engagement": 344,
+            "engagementRate": 0.34
+        },
+        {
+            "id": "5TJJtcHXaYLUTjX6hQNkKKzaDat8SAt8uBLRDXR4sLY=_16f6b674243:3bc80c1:512e2118",
+            "keywords": [
+                "Liverpool FC News",
+                "Alisson",
+                "Liverpool vs Sheffield United",
+                "Sadio Mane",
+                "Sheffield United",
+                "Statistics",
+                "Stats"
+            ],
+            "originId": "https://www.thisisanfield.com/?p=220354",
+            "fingerprint": "af7360e8",
+            "thumbnail": [
+                {
+                    "url": "https://www.thisisanfield.com/wp-content/uploads/P2020-01-02-Liverpool_Sheff_Utd-77-600x400.jpg",
+                    "width": 600,
+                    "height": 400
+                }
+            ],
+            "title": "7-day Mane secures 365-day Reds – 5 key stats from Liverpool 2-0 Sheffield United",
+            "author": "Jack Lusby",
+            "summary": {
+                "content": "Liverpool have now gone a year unbeaten in the Premier League, as Alisson kept a fifth consecutive clean sheet in […]",
+                "direction": "ltr"
+            },
+            "enclosure": [
+                {
+                    "href": "https://www.thisisanfield.com/wp-content/uploads/P2020-01-02-Liverpool_Sheff_Utd-77.jpg",
+                    "type": "image/jpg",
+                    "length": 382722
+                },
+                {
+                    "href": "https://www.thisisanfield.com/wp-content/uploads/P2020-01-02-Liverpool_Sheff_Utd-77-80x80.jpg",
+                    "width": 80,
+                    "height": 80,
+                    "type": "image/jpeg"
+                }
+            ],
+            "alternate": [
+                {
+                    "href": "https://www.thisisanfield.com/2020/01/7-day-mane-secures-365-day-reds-5-key-stats-from-liverpool-2-0-sheffield-united/",
+                    "type": "text/html"
+                }
+            ],
+            "crawled": 1578054926915,
+            "published": 1578054704000,
+            "origin": {
+                "streamId": "feed/http://www.thisisanfield.com/feed/",
+                "title": "This Is Anfield",
+                "htmlUrl": "https://www.thisisanfield.com"
+            },
+            "visual": {
+                "processor": "feedly-nikon-v3.1",
+                "url": "https://www.thisisanfield.com/wp-content/uploads/P2020-01-02-Liverpool_Sheff_Utd-77.jpg",
+                "width": 1200,
+                "height": 800,
+                "contentType": "image/jpeg"
+            },
+            "canonicalUrl": "https://www.thisisanfield.com/2020/01/7-day-mane-secures-365-day-reds-5-key-stats-from-liverpool-2-0-sheffield-united/",
+            "ampUrl": "https://www.thisisanfield.com/2020/01/7-day-mane-secures-365-day-reds-5-key-stats-from-liverpool-2-0-sheffield-united/amp/",
+            "cdnAmpUrl": "https://www-thisisanfield-com.cdn.ampproject.org/c/s/www.thisisanfield.com/2020/01/7-day-mane-secures-365-day-reds-5-key-stats-from-liverpool-2-0-sheffield-united/amp/",
+            "unread": true,
+            "categories": [
+                {
+                    "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+                    "label": "Liverpool RSS"
+                }
+            ],
+            "commonTopics": [
+                {
+                    "score": 247.74739772733966,
+                    "id": "nlp/f/topic/3020",
+                    "salienceLevel": "about",
+                    "label": "soccer"
+                },
+                {
+                    "score": 31.21264693539772,
+                    "id": "nlp/f/topic/3029",
+                    "salienceLevel": "about",
+                    "label": "games"
+                },
+                {
+                    "score": 0.791,
+                    "id": "nlp/f/topic/2153",
+                    "salienceLevel": "mention",
+                    "label": "sports business"
+                }
+            ],
+            "entities": [
+                {
+                    "mentions": [
+                        {
+                            "text": "Reds"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:1368281",
+                    "salienceLevel": "about",
+                    "label": "Queensland Reds"
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Sheffield United"
+                        },
+                        {
+                            "text": "the Blades"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:19607",
+                    "salienceLevel": "about",
+                    "label": "Sheffield United F.C."
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Liverpool"
+                        },
+                        {
+                            "text": "Liverpool's"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:1130849",
+                    "salienceLevel": "mention",
+                    "label": "Liverpool F.C."
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Premier League"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:9448",
+                    "salienceLevel": "mention",
+                    "label": "Premier League"
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Leicester"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:19481",
+                    "salienceLevel": "mention",
+                    "label": "Leicester City F.C."
+                }
+            ],
+            "engagement": 1258,
+            "engagementRate": 0.51
+        },
+        {
+            "id": "gEnsITk76Xy6RrYujKQfY6lCToorNV6uDuhjO3YE2Fc=_16f6b5a100a:39d906a:dcfbed0f",
+            "keywords": [
+                "Liverpool FC"
+            ],
+            "originId": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-miss-out-transfer-target-17506632",
+            "fingerprint": "f797c366",
+            "thumbnail": [
+                {
+                    "url": "https://i2-prod.liverpoolecho.co.uk/incoming/article17507289.ece/ALTERNATES/s98/0_GettyImages-1167353422.jpg",
+                    "width": 98,
+                    "height": 98
+                }
+            ],
+            "title": "Liverpool 'miss out' on transfer target, teen star monitored and other rumours rated",
+            "author": "liverpool.news@trinitymirror.com (Sean Bradbury)",
+            "summary": {
+                "content": "Round-up of the latest Liverpool transfer gossip from across the web as January rumour mill is well underway",
+                "direction": "ltr"
+            },
+            "enclosure": [
+                {
+                    "href": "https://i2-prod.liverpoolecho.co.uk/incoming/article17507289.ece/ALTERNATES/s615/0_GettyImages-1167353422.jpg",
+                    "type": "image/jpeg",
+                    "length": 754605
+                },
+                {
+                    "href": "https://i2-prod.liverpoolecho.co.uk/incoming/article17507289.ece/ALTERNATES/s615/0_GettyImages-1167353422.jpg",
+                    "width": 615,
+                    "height": 409,
+                    "type": "image/jpeg"
+                }
+            ],
+            "alternate": [
+                {
+                    "href": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-miss-out-transfer-target-17506632",
+                    "type": "text/html"
+                }
+            ],
+            "crawled": 1578054062090,
+            "published": 1578052947000,
+            "origin": {
+                "streamId": "feed/http://www.liverpoolecho.co.uk/all-about/liverpool%20fc?service=rss",
+                "title": "Liverpool Echo - Liverpool FC",
+                "htmlUrl": "https://www.liverpoolecho.co.uk"
+            },
+            "visual": {
+                "processor": "feedly-nikon-v3.1",
+                "url": "https://i2-prod.liverpoolecho.co.uk/incoming/article17507289.ece/ALTERNATES/s615/0_GettyImages-1167353422.jpg",
+                "width": 615,
+                "height": 409,
+                "contentType": "image/jpeg"
+            },
+            "canonicalUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-miss-out-transfer-target-17506632",
+            "ampUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-miss-out-transfer-target-17506632.amp",
+            "cdnAmpUrl": "https://www-liverpoolecho-co-uk.cdn.ampproject.org/c/s/www.liverpoolecho.co.uk/sport/football/football-news/liverpool-miss-out-transfer-target-17506632.amp",
+            "unread": true,
+            "categories": [
+                {
+                    "id": "user/a9d30e18-47ec-4606-b3b8-46aa2c138647/category/96e0529d-bdbd-4e15-b75b-48ecc0f3c3a2",
+                    "label": "Liverpool RSS"
+                }
+            ],
+            "commonTopics": [
+                {
+                    "score": 104.61340054745844,
+                    "id": "nlp/f/topic/3020",
+                    "salienceLevel": "about",
+                    "label": "soccer"
+                },
+                {
+                    "score": 0.732,
+                    "id": "nlp/f/topic/777",
+                    "salienceLevel": "mention",
+                    "label": "entertainment"
+                }
+            ],
+            "entities": [
+                {
+                    "mentions": [
+                        {
+                            "text": "Liverpool"
+                        },
+                        {
+                            "text": "Liverpool's"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:1130849",
+                    "salienceLevel": "about",
+                    "label": "Liverpool F.C."
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Sevilla"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:10329",
+                    "salienceLevel": "mention",
+                    "label": "Sevilla FC"
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Juventus"
+                        },
+                        {
+                            "text": "Juve"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:1422",
+                    "salienceLevel": "mention",
+                    "label": "Juventus F.C."
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Atalanta"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:1886",
+                    "salienceLevel": "mention",
+                    "label": "Atalanta B.C."
+                },
+                {
+                    "mentions": [
+                        {
+                            "text": "Sweden"
+                        }
+                    ],
+                    "id": "nlp/f/entity/wd:160826",
+                    "salienceLevel": "mention",
+                    "label": "Sweden national football team"
+                }
+            ],
+            "engagement": 268,
+            "engagementRate": 0.26
+        }
+    ]
+}

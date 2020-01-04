@@ -5,6 +5,7 @@ const empireOfTheKopFeed = require('../test/util/empireofthekopfeed.json')
 const duplicateItemsFeed = require('../test/util/duplicateItemsFeed.json')
 const thisIsAnfieldFeed = require('../test/util/thisisanfield.json')
 const empireofthekopbadurl = require('../test/util/empireofthekopbadurl.json')
+const youtube = require('../test/util/youtubecrashfeed.json')
 
 describe('Response Sanitation', function () {
     describe('stripFeed()', function () {
@@ -40,6 +41,11 @@ describe('Response Sanitation', function () {
         it("source should use alternate href when 'p=' is present in the originId", () => {
             const sanitisedFeed = sanitation.stripFeed(empireofthekopbadurl)
             assert.deepEqual(sanitisedFeed.items[1].originId, "https://www.empireofthekop.com/2020/01/02/video-minamino-tries-to-skill-milner-in-liverpool-training-rondo/")
+        })
+
+        it("youTube video source should use alternate href when 'yt:' is present in the originId", () => {
+            const sanitisedFeed = sanitation.stripFeed(youtube)
+            assert.deepEqual(sanitisedFeed.items[0].originId, "https://www.youtube.com/watch?v=_PkP0gi04cw")
         })
     });
 
