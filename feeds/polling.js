@@ -1,6 +1,5 @@
 const request = require('request');
 const sanitation = require('./util/response-sanitation');
-const email = require('./util/email-reminder');
 const {storeData} = require('./util/storeData');
 
 const TWENTY_NINE_MINS = 1.74e6;
@@ -20,11 +19,6 @@ module.exports = {
                 },
                 (err, res, body) => {
                     const response = JSON.parse(body);
-
-                    if (response.errorCode == 401) {
-                        email.sendMail(body)
-                        return;
-                    }
                     const articles = sanitation.stripFeed(response);
                     const articlesWithTimeStamp = sanitation.addTimeStamp(articles);
                     storeData('featured', articlesWithTimeStamp, database)
@@ -44,11 +38,6 @@ module.exports = {
                 },
                 (err, res, body) => {
                     const response = JSON.parse(body);
-
-                    if (response.errorCode == 401) {
-                        email.sendMail(body)
-                        return;
-                    }
                     const articles = sanitation.stripFeed(response);
                     const articlesWithTimeStamp = sanitation.addTimeStamp(articles);
                     storeData('general', articlesWithTimeStamp, database)
